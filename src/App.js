@@ -1,4 +1,5 @@
 import React from "react";
+import Ex_Tai_Xiu from "./Ex_Tai_Xiu/Ex_Tai_Xiu";
 import AlbumFeature from "./features/Song";
 //import "./App.css";
 
@@ -47,7 +48,8 @@ function App() {
         </a>
       </header> */}
       {/* <TodoFeature/> */}
-      <AlbumFeature/>
+      {/* <AlbumFeature/> */}
+      <Ex_Tai_Xiu/>
     </div>
   );
 }
